@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Biblio</title>
+<script type="text/javascript" src="js/fetch.js"></script>
+</head>
+<body>
+	<h1>Nouvel auteur :</h1>
+	<form> 
+		<table>
+			<tr>
+				<td>Id:</td>
+				<td><input type="text" id="id" name="id" size="12"></td>
+			</tr>
+			<tr>
+				<td>Nom de l'auteur:</td>
+				<td><input type="text" id="name" name="name" size="30"></td>
+			</tr>
+			<tr>
+				<td>Année de naissance:</td>
+				<td><input type="text" id="yearBorn" name="yearBorn" size="10"></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="border-top: 1px solid gray" align="right"><input
+					type="button" value="Valider" onclick="addAuthor()"></td>
+			</tr>
+		</table> 
+	</form>
+	<div id="result"></div>
+</body>
+</html>
